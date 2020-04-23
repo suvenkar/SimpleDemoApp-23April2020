@@ -20,6 +20,7 @@ public class DemoController {
 		return mav;
 	}
 	//.//
+	//Test12
 	@GetMapping("/login")
 	public ModelAndView callLogin(ModelAndView mav) {
 		mav.setViewName("login");
